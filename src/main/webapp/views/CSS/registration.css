@@ -1,0 +1,67 @@
+#pswd_info {
+    display: none;
+}
+
+.register-block .invalid, .restore-block .invalid {
+    padding-left: 22px;
+    line-height: 24px;
+    color: #ec3f41;
+}
+
+.register-block .valid, .restore-block .valid {
+    padding-left: 22px;
+    line-height: 24px;
+    color: #3a7d34;
+}
+
+.hidden-error-block {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.big-black-block {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 99998;
+    width: 100%;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.register-block {
+    max-width: 350px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: #eaeaea;
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-block input {
+    padding: 12px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.input-block button {
+    width: 100%;
+    border: none;
+    background: #b1572f;
+    color: #fff;
+    padding: 12px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.input-block button:hover {
+    background: #fff;
+    color: #b1572f;
+}
